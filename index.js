@@ -25,14 +25,14 @@ function nowServing(katzDeliLine) {
 
 
 
-// function currentLine(katzDeliLine) {
-// if(katzDeliLine.length === 0){
-//   return "The line is currently empty."
-// } else {
-//   let str = []
-//
-//   katzDeliLine.forEach((name, index)=> str.push(`${index+1}. ${name}${index+1 != katzDeliLine.length ? "," :''} `))
-//
-//   return `The line is currently: ${str.join('')}`;
-//  }
-// };
+ function currentLine(katzDeliLine) {
+ if(katzDeliLine.length === 0){
+   return "The line is currently empty."
+ } else {
+   let str = []
+
+   katzDeliLine.forEach((name, index)=> str.push(`${index+1}. ${name}${index+1 != katzDeliLine.length ? "," :''} `))
+
+   return `The line is currently: ${str.join('')}`;
+  }
+ };
